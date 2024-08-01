@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+  <nav class="navbar position-sticky t-20 navbar-expand-lg fixed-top navbar-dark">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
         <h1>osonweb</h1>
@@ -11,13 +11,13 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#">HTML</a>
+              <router-link to="/" class="nav-link">HOME</router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">CSS</a>
+              <router-link to="/html" class="nav-link">HTML</router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">JAVASCRIPT</a>
+              <router-link to="/css" class="nav-link">CSS</router-link>
           </li>
         </ul>
         <form class="d-flex input-group w-auto">

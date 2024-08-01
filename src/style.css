@@ -3,9 +3,8 @@
 }
 
 .navbar-dark .nav-item .nav-link:hover {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: #004268;
   transition: all 0.3s ease;
-  border-radius: 0.25rem;
   color: #fff;
 }
 
@@ -15,4 +14,8 @@
 }
 .navbar{
   background-color: #002236;
+}
+.active{
+  background-color: #004268;
+
 }
